@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>David web</title>
+        <link rel="stylesheet" href="./index.css">
+        <link rel="stylesheet"  href="https://fonts.googleapis.com/css?family=Tangerine">
+    </head>
+    <body>
+        <script src="./index.js"></script>
+
+        <div class="page-content">
+                
+            <header>
+                <div class="header">
+                    <center><h1>AMADU DAVID'S WEBSITE</h1></center>
+                
+                    <nav>
+                        <a href="./esther.html"><button>Esther</button></a>
+                        <a href="./intel.html"><button>Intel</button></a>
+                        <a href="./david.html"><button>me</button></a>
+                    </nav>
+                </div>
+            </header>
+
+            <main>
+                <section class="fsection">
+
+                    <div class="final__register-wrapper">
+                      <div class="final__register-block">
+                        <h3 class="final__register-title">Please fill in your details<h3>
+                        <p>Fill in your details to wish mea speedy  recovery!! </p>
+
+                        <form id='userData'>
+                         <input type="text" name="fullName" id="fullName" placeholder="Enter your full name" required>
+                         <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="Enter your phone number" required>
+
+                         <select name="region" id="region">
+                            <option>Region</option>
+                            <option>Upper East Region-Bolgatanga</option>
+                            <option>Upper West Region-Wa</option>
+                            <option>Northern Region-Tamale</option>
+                            <option>Savannah Region-Damango</option>
+                            <option>Ahafo Region</option>
+                            <option>Western North Region- Sefwi Wiawso</option>
+                            <option>Western Region-Sekondi</option>
+                            <option>Bono East Region-Techiman</option>
+                            <option>Bono Region-Sunyani</option>
+                            <option>Volta Region- Ho</option>
+                            <option>Oti Region-Dambai</option>
+                            <option>Greater Accra Region- Accra</option>
+                            <option>Eastern Region-Koforidua</option>
+                            <option>Ashanti Region-Kumasi</option>
+                            <option>Central Region- Cape Coast</option>
+                            <option>Ahafo Region-Goaso</option>
+
+                         </select>
+                         
+                         <select name="gender" id="gender">
+                             <option>Gender</option>
+                             <option value="Male">Male</option>
+                             <option value="Female">Female</option>
+                         </select>
+                         <input type="email" name="email"  id = 'email' placeholder="Enter your email address">
+                         <input type="button" name="submit" value="wish me!!!" onclick="sotore(
+                             [
+                                 document.querySelector('#fullName').value, document.querySelector('#phoneNumber').value,
+                                 document.querySelector('#region').value, document.querySelector('#gender').value,
+                                 document.querySelector('#email').value
+                            
+                            ]
+                         )"/>
+                        </form>
+                      </div>
+                    </div>
+            
+        
+                  </section>
+
+                  <section class="ssection">
+                      <div class="instructions">
+                        
+
+                      </div>
+                  </section> 
+
+                
+            </main>
+
+            <footer>
+                <div>Thank you for visiting the world of David, I hope  you had fun</div>
+                <p class="test"></p>
+            </footer>
+
+        </div>
+    </body>
+</html>

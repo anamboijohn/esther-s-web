@@ -1,0 +1,47 @@
+header{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    background: url(./pics/Ferrari-F40.jpg) repeat-x; height: 73px;
+}
+
+header a:hover{
+    color: rgb(95, 7, 51);
+    outline: none;
+    text-decoration: none;
+}
+
+.est{
+    /* height: 77.5vh; */
+    height: 405px;
+
+}
+
+body{
+    background: url(./pics/world.jpg);
+}
+
+.img_sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px 30px;
+
+    height: 70vh;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    color: white;
+    text-shadow: 2px 2px 0 crimson;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.vid{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 50vh;
+}

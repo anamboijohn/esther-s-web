@@ -1,0 +1,20 @@
+.instructions{
+    width: 100vw;
+    height: 110vh;
+    margin: 10px;
+
+    font-family: Tangerine, sans-serif;
+    font-size: 1.5rem;
+    color: black;
+    text-shadow: 1px 1px 0 gray;
+  }
+  .instructions h2{
+    font-size: 3rem;
+    text-align: center;
+    color:rgb(209, 16, 80);
+    text-shadow: 1px 1px 0 #000;
+  }
+
+  .instructions:hover{
+    background-image: url(./pics/intel_1_-removebg-preview.png);
+  }
